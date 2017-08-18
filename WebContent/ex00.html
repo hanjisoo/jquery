@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<!-- <script type="text/javascript">
+	document.write("header");
+</script> -->
+
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<div>
+		<input id="btn" type="button" value="테스트버튼"/>
+		<h1 id="display">이름출력영역</h1>
+	</div>
+
+	<!-- <ul>
+		<li> 순서1 순서1 순서1 순서1 순서1 </li>
+		<li> 순서2 순서2 순서2 순서2 순서2 </li>
+		<li> 순서3 순서3 순서3 순서3 순서3 </li>
+		<li> 순서4 순서4 순서4 순서4 순서4 </li>
+	</ul>
+	
+	<script type="text/javascript">
+	document.write("body");
+	</script>
+
+	<p> 텍스트1 텍스트1 텍스트1 텍스트1 텍스트1 </p>
+	<p> 텍스트2 텍스트2 텍스트2 텍스트2 텍스트2 </p>
+	<p> 텍스트3 텍스트3 텍스트3 텍스트3 텍스트3 </p>
+	<p> 텍스트4 텍스트4 텍스트4 텍스트4 텍스트4 </p> -->
+
+</body>
+
+<script type="text/javascript">
+	//브라우저에서 버튼누르는지 보고있어
+	window.onload=function(){
+		
+		var testButton=document.getElementById("btn");
+		var testArea=document.getElementById("display");
+		
+		console.log(testArea);
+		testButton.onclick=function(){
+			testArea.innerHTML="<font color='green'>홍길동</font>";
+		};
+	};
+</script>
+	
+<script type="text/javascript">
+	
+	/* var guestbookVo={
+		no:1,
+		name:"한지수",
+		password:"123",
+		content:"하이"
+	};
+	console.log(guestbookVo.name);
+	console.log(guestbookVo); */
+</script>
+
+
+<script type="text/javascript">
+
+
+	/* var array=[273,"String", true, function(){}, {},[273,103]];
+	
+	console.log(array[0]);
+	console.log(array[1]);
+	console.log(array[2]);
+	console.log(array[3]);
+	console.log(array[4]);
+	console.log(array[5]); */
+
+</script>
+	
+	
+<script type="text/javascript">
+	/* var name="global";
+	
+	function checkScope(){
+		var name="local";
+		console.log(name);
+	}
+	checkScope(); */
+	
+	/* var name="global";
+	
+	function checkScope(){
+		name="local";
+		name2="local";
+	}
+	checkScope();
+	console.log(name);
+	console.log(name2); */
+	
+</script>
+
+<!-- <script type="text/javascript">
+	 var v1="This is test";
+	alert(typeof v1); 
+	var v2=20;
+	console.log(typeof v2);
+
+ var myVar;
+	var myVar2 = null;
+	alert( myVar + ", " + myVar2 );
+	alert( myVar == myVar2 );
+	alert( myVar === myVar2 ); 
+</script> -->
+
+
+</html>
